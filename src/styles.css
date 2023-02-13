@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+.cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid brown;
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgb(72, 17, 17);
+    width: 21.4%;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-date {
+    font-weight: bold;
+    text-align: end;
+}
