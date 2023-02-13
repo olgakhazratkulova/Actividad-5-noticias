@@ -13,7 +13,7 @@
     border-radius: 3px;
     padding: 20px;
     box-shadow: 1px 1px 10px rgb(72, 17, 17);
-    width: 21.4%;
+    width: 21%;
 }
 
 .card-title {
@@ -28,4 +28,10 @@
 .card-date {
     font-weight: bold;
     text-align: end;
+}
+
+.card-text {
+   overflow-wrap: break-word;
+   text-align: justify;
+   white-space: pre-wrap;
 }
